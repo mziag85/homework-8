@@ -1,0 +1,379 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.card{
+    width: 100%;
+    max-width:1440px;
+}
+.firt_row{
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.main_logo{
+    height: 363px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/bg-header-desktop.png);
+    background-size:contain;
+    max-width: 100%;
+    height:auto;
+}
+.logo{
+    height: 125px;
+    color: #26BBA4;
+    margin: 0 auto;
+}
+
+h1, h2,h3,li{
+    color: #4C545C;
+}
+
+p{
+    color: #9EABB2;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 100%;
+    letter-spacing: -0.75px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: -0.59px;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+h3{
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 100%;
+   letter-spacing: -0.39px;
+}
+
+.header_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.ios_mac{
+    display: flex;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 142px;
+    text-decoration: none;
+}
+.ios{
+  background-color: #26BBA4;
+  border-radius: 50px;
+  padding: 13px 36px;
+  box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.5);
+  box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.15) ;
+  
+}
+.ios:hover{
+  filter: brightness(1.12);
+}
+.mac{
+  background-color: #6174FF;
+  border-radius: 50px;
+  padding: 13px 36px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.mac:hover{
+  filter: brightness(1.12);
+}
+.keep_track_text{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.14px;
+  text-align: center;
+  margin-bottom: 49px;
+
+}
+.computer{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+    align-items: start;
+    margin-bottom: 49px;
+}
+.comp_foto{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.acess_clipboard_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.14px;
+    text-align: center;
+    margin-bottom: 49px;
+}
+.devices_foto{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 49px;
+}
+.supercharge_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.14px;
+    text-align: center;
+    margin-bottom: 49px;
+
+}
+.icons{
+    display: flex;
+    gap: 30px;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 49px;
+}
+
+.create,.plain, .sneak{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.create p,.plain p, .sneak p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.12px;
+    text-align: center;
+    text-wrap: nowrap;
+}
+.blacklist_icn {
+    margin-bottom: 40px;
+}
+.AI-icn {
+    margin-bottom: 44px;
+}
+.preview_icn {
+    margin-bottom: 44px;
+}
+.google{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto; 
+    margin-bottom: 100px;
+}
+.clipboard_text{
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 30px;
+   letter-spacing: 0.14px;
+   text-align: center;
+   margin-bottom: 48px;
+
+}
+.clipboard{
+    margin-bottom: 150px;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #c2c8cb2d;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.little_logo{
+    max-width: 100%;
+    height: 55px;
+}
+
+li{
+    list-style: none;
+} 
+
+.contact_us:hover{
+    color: #26BBA4;
+    cursor: pointer;
+    
+}
+
+
+/* ფერი :hover ვერ დავადე ტვიტერს და ვერ ჩავსვი a-ში "contact us"*/
+
+.twit{
+    color: #4C545C;
+}
+.twit:hover{
+    color: #26BBA4;
+    cursor: pointer;
+}
+
+
+
+.fb_tiwt_insta{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+
+@media(max-width:375px){
+    body{
+        /* background: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+
+    }
+    .computer{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .main_logo{
+        height: 125px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+
+    .comp_foto{
+        max-width: 100%;
+        height: auto;
+    }
+    .comp_search{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 10px;
+    }
+
+    .icons{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 10px;
+    }
+
+    .create,.plain, .sneak{
+         max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+.google{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 20px;
+}
+.clipboard{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 10px;
+        margin-bottom: 20px;
+}
+.ios_mac{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 10px;
+        margin-bottom: 50px;
+}
+.contact{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 10px;
+}
+
+}
+
+
+
+
+
+
+

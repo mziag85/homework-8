@@ -1,0 +1,152 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+} 
+
+ body {
+    font-family: "Bai Jamjuree", sans-serif;
+}
+.container{
+    min-height: 100vh;
+    background: url(./images/cologne.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    padding: 25px;
+    background-color:rgba(241, 236, 236, 0.253);
+    border-radius: 16px;
+    backdrop-filter: blur(3px);
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 25px;
+    color: #26BBA4;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.field label {
+    font-size: 20px;
+    color: rgb(249, 249, 250);
+    margin-bottom: 10px;
+}
+.field input {
+    border: 3px solid rgba(25, 22, 26, 0.196);
+    border-radius: 15px;
+    background:  rgba(117, 43, 124, 0);
+    padding: 5px;
+}
+
+.input:hover {
+    background-color: rgba(255, 127, 232, 0.185);
+}
+:focus{
+    outline: none;
+}
+.radio{
+    display: flex;
+    gap: 15px;
+}
+.radio p{
+    font-size: 15px;
+    color: rgb(1, 1, 9);
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.field.check label {
+    font-size: 15px;
+    color: #38af9d;
+}
+
+.btn{
+    background-color: rgba(240, 255, 254, 0.163);
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    color: #f9f9fa;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    
+}
+
+p{
+    color: #7073d2;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+a{
+    margin-top: 20px;
+    display: block;
+    color: #eeefed;
+    background-color: #26bba545;
+    border-radius: 20px;
+    line-height: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    max-width: 150px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+  @media(max-width: 375px){
+    
+    .container{
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+  
+  .radio, .field.check{
+    flex-wrap: wrap;
+  }
+  
+
+  }
