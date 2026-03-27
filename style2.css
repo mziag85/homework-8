@@ -127,7 +127,7 @@ a{
     font-size: 18px;
 }
 
-  @media(max-width: 500px){
+  @media(max-width: 375px){
     
     .container{
         background-size: cover;
