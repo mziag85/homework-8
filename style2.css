@@ -16,7 +16,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .wrapper{
@@ -127,7 +126,13 @@ a{
     font-size: 18px;
 }
 
-  @media(max-width: 375px){
+  @media(max-width: 500px){
+
+    *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+} 
     
     .container{
         background-size: cover;

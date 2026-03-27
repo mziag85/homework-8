@@ -18,7 +18,7 @@
     flex-direction: column;
 }
 .main_logo{
-    height: 363px;
+    max-height: 363px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@
     height:auto;
 }
 .logo{
-    height: 125px;
+    max-height: 125px;
     color: #26BBA4;
     margin: 0 auto;
 }
@@ -259,11 +259,11 @@ li{
 
 
 
-@media(max-width:375px){
-    body{
-        /* background: red; */
+@media(max-width:500px){
+   *   {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         justify-content: center;
         
 
@@ -272,7 +272,6 @@ li{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        flex-wrap: wrap;
         gap: 10px;
 
     }
@@ -280,20 +279,26 @@ li{
         display: flex;
         flex-direction:column;
         justify-content: center;
-        flex-wrap: nowrap;
+        align-items: center;
+        flex-wrap: wrap;
         gap: 10px;
+
     }
 
     .main_logo{
-        height: 125px;
+        max-height: 125px;
         display: flex;
+        background-size:contain;
         flex-direction:column;
         justify-content: center;
+        align-items: center;
     }
-
     .comp_foto{
-        max-width: 100%;
-        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     .comp_search{
         display: flex;
@@ -302,12 +307,13 @@ li{
         justify-content: center;
         margin: 0 auto;
         gap: 10px;
+        flex-wrap: wrap;
     }
 
+
     .icons{
-        max-width: 100%;
-        height: auto;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -315,31 +321,45 @@ li{
         gap: 10px;
     }
 
+
     .create,.plain, .sneak{
-         max-width: 100%;
-        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin: 0 auto;
+        flex-wrap: wrap;
         gap: 10px;
         margin-bottom: 20px;
     }
+   .create p,.plain p, .sneak p{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.12px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+}
+
 .google{
-        max-width: 100%;
-        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
         margin: 0 auto;
         gap: 20px;
 }
+
 .clipboard{
         max-width: 100%;
         height: auto;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -362,6 +382,7 @@ li{
         max-width: 100%;
         height: auto;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
         justify-content: center;
